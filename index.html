@@ -1,69 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-
   <title>Simple Sidebar - Start Bootstrap Template</title>
-
   <!-- Bootstrap core CSS -->
   <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
   <!-- Custom styles for this template -->
   <link href="./css/simple-sidebar.css" rel="stylesheet">
-
 </head>
-
 <body>
-
   <div class="d-flex" id="wrapper">
-
     <!-- Sidebar -->
     <div class="bg-light border-right" id="sidebar-wrapper">
       <div class="sidebar-heading">Start Bootstrap </div>
-      <div class="list-group list-group-flush">
-          <ul id="tree1">
-              <li><a href="#" class="list-group-item list-group-item-action bg-light">EC-2</a>
-                  <ul>
-                      <li>Company Maintenance</li>
-                      <li>Employees
-                          <ul>
-                              <li>Reports
-                                  <ul>
-                                      <li>Report1</li>
-                                      <li>Report2</li>
-                                      <li>Report3</li>
-                                  </ul>
-                              </li>
-                              <li>Employee Maint.</li>
-                          </ul>
-                      </li>
-                      <li>Human Resources</li>
-                  </ul>
-              </li>
-              <li><a href="#" class="list-group-item list-group-item-action bg-light">Storage</a>
-                  <ul>
-                      <li>Company Maintenance</li>
-                      <li>Employees
-                          <ul>
-                              <li>Reports
-                                  <ul>
-                                      <li>Report1</li>
-                                      <li>Report2</li>
-                                      <li>Report3</li>
-                                  </ul>
-                              </li>
-                              <li>Employee Maint.</li>
-                          </ul>
-                      </li>
-                      <li>Human Resources</li>
-                  </ul>
-              </li>
-          </ul>
+      <div id="menu" class="list-group list-group-flush">
+          
       </div>
     </div>
     <!-- Page Content -->
@@ -109,18 +63,8 @@
   <!-- Bootstrap core JavaScript -->
   <script src="./vendor/jquery/jquery.min.js"></script>
   <script src="./vendor/jquery/tree.js"></script>
+  <script src="./vendor/jquery/app.js"></script>
   <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Menu Toggle Script -->
-  <script>
-    $('#post').load('post/ec2.html');
-
-    $("#menu-toggle").click(function(e) {
-      e.preventDefault();
-      $("#wrapper").toggleClass("toggled");
-    });
-  </script>
-
 </body>
 
 </html>

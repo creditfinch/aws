@@ -8,5 +8,5 @@ jQuery(document).ready(function(){
 
     });
 
-    
+    $('#post').load('post/ec2.html');
 })

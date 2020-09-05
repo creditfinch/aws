@@ -1,4 +1,4 @@
-document.ready(function(){
+jQuery(document).ready(function(){
     $('#menu').load('pages.html');
 
     $('#tree1').treed();
